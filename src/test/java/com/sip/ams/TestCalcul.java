@@ -15,5 +15,21 @@ class TestCalcul {
 		assertEquals(res, 30);
 		
 	}
+	
+	@Test
+	void testProduit() {
+		Calcul c = new Calcul();
+		int res = c.produit(10, 20);
+		assertEquals(res, 200);
+		
+	}
+	
+	@Test
+	void testDivision() {
+		Calcul c = new Calcul();
+		double res = c.division(10, 20);
+		assertEquals(res, 0.5);
+		
+	}
 
 }

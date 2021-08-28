@@ -14,7 +14,7 @@ public class Calcul {
 		if (b == 0)
 			return -999;
 		else
-			return a / b;
+			return (double)a / b;
 	}
 
 }
