@@ -11,7 +11,7 @@ public class HelloWorldJenkinsApplication {
 	public static void main(String[] args) {
 		
 		SpringApplication.run(HelloWorldJenkinsApplication.class, args);
-		System.out.println("Hello JUNIT with gitgithub ok");
+		System.out.println("Hello JUNIT with gitgithub fini");
 		
 		Calcul c = new Calcul();
 		
